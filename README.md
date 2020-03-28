@@ -1,2 +1,2 @@
-# jenkins-docker-springboot-kineisis-sample
-jenkins-docker-springboot-kineisis-sample project
+# jenkins-docker-springboot-kinesis-sample
+jenkins-docker-springboot-kinesis-sample project
