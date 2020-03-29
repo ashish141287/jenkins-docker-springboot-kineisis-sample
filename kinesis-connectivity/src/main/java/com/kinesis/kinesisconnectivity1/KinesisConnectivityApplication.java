@@ -10,7 +10,7 @@ public class KinesisConnectivityApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext cnf = SpringApplication.run(KinesisConnectivityApplication.class, args);
 		KinesisConnection kinesisConnection = cnf.getBean(KinesisConnection.class);
-		//kinesisConnection.createKinesisConnection();
+		kinesisConnection.createKinesisConnection();
 		//kinesisConnection.pushDataStreams();
 		kinesisConnection.getStreamData();
 	}
