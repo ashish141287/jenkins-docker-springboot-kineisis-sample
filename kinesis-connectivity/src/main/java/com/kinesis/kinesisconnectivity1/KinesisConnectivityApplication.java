@@ -13,6 +13,6 @@ public class KinesisConnectivityApplication {
 		kinesisConnection.createKinesisConnection();
 		//kinesisConnection.pushDataStreams();
 		kinesisConnection.getStreamData();
-		System.out.println("hello");
+		//System.out.println("hello");
 	}
 }
